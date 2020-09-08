@@ -7,6 +7,6 @@ Having to change directories in order to get your new password is exhausting. Th
 1. Open Terminal and go to that directory, and type `chmod u+x passwordGenerator.sh`.
 1. Type `cd ~` in Terminal.
 1. Type `open ~/.bash_profile`.
-1. At the bottom, type in the following: `# Setting custom PATH for Password Generator` and `alias passwordGenerator='DIRECTORY'`
+1. At the bottom, type in the following: `# Setting custom PATH for Password Generator` and `alias generatePassword='DIRECTORY'`
 1. Type `source ~/.bash_profile` in the Terminal.
-1. Now, typing `passwordGenerator` into the command line from any directory will produce a password!
+1. Now, typing `generatePassword` into the command line from any directory will produce a password!
